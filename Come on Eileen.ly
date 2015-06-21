@@ -170,14 +170,14 @@ trumpetBbII =
         }
         \alternative
         {
-          { g16-. g8-. g16 ~ g8 e16-. f-. g-. g8-. g16 ~ g8 c, | }
-          { g'16-. g8-. g16 ~ g8 e16-. f-. g-. g8-. g16 ~ g8 r | }
+          { g16-. g8-. g16 ~ g8 e16-. f-. b,-. b8-. b16 ~ b8 c | }
+          { g'16-. g8-. g16 ~ g8 e16-. f-. b,-. b8-. b16 ~ b8 r | }
         }
         
         r1 |
         r1 |
         r1 |
-        r8 g e16 c8-. g16-> ~ g2 |
+        r8 g' e16 c8-. g16-> ~ g2 |
         
         r2 r8 f' e16 f8.-. |
         r2 r8 e e16 e8.-. |
@@ -250,10 +250,10 @@ trumpetBbII =
         b8) b-. r b-. r b-. r b( |
         a8) a-. r a-. r e'-. r e-. |
         
-        d4^"molto accel." e fis g |
-        a4 b cis d |
-        b1 |
-        a2 e'-> |
+        r1 |
+        d4 e fis g |
+        d1 |
+        a'2 e'-> |
 
         d4-^ r4 r2 |
         a4-^ r4 r2 |
@@ -262,17 +262,17 @@ trumpetBbII =
         
         \repeat volta 3
         {
-          fis1^"Trumpet tacet 1st time" |
-          e2 fis |
+          a1^"Trumpet tacet 1st time" |
+          a2 b |
         }
         \alternative
         {
           {
-            d1 |
-            fis2 e |
+            g1 |
+            a2 a |
           }
           {
-            g1 |
+            b1 |
             r1
           }
         }
@@ -385,8 +385,8 @@ altoSax =
         b8) b-. r b-. r b-. r b( |
         a8) a-. r a-. r e'-. r e-. |
         
-        d4 e fis g |
-        a4 b cis d |
+        r1 |
+        fis4 g a b |
         b1 |
         a2 e'-> |
 
@@ -433,14 +433,14 @@ tenorSax =
 
         \repeat volta 2
         {
-          g'4-^ a8. g16 r4 r8 c, |
-          g'4-^ a8. g16 r4 r8 c, |
-          g'4-^ a8. g16 r4 r8 e16-. f-. |
+          e4-^ f8. e16 r4 r8 e |
+          e4-^ e8. e16 r4 r8 e |
+          c4-^ c8. c16 r4 r8 e16-. f-. |
         }
         \alternative
         {
-          { g16-. g8-. g16 ~ g8 e16-. f-. g-. g8-. g16 ~ g8 c, | }
-          { g'16-. g8-. g16 ~ g8 e16-. f-. g-. g8-. g16 ~ g8 r | }
+          { g16-. g8-. g16 ~ g8 e16-. f-. d-. d8-. d16 ~ d8 c | }
+          { g'16-. g8-. g16 ~ g8 e16-. f-. d-. d8-. d16 ~ d8 r | }
         }
 
         \repeat volta 2
@@ -448,17 +448,17 @@ tenorSax =
           r1 |
           r1 |
           r1 |
-          r8 g e16 c8-. g16-> ~ g2 |
+          r8 g' e16 c8-. g16-> ~ g2 |
         }
         
-        r2 r8 a' g16 a8.-. |
+        r2 r8 a g16 a8.-. |
         r2 r8 a g16 a8.-. |
         r1 |
-        r8 g e16 c8-. g16-> ~ g2 |
+        r8 g' e16 c8-. g16-> ~ g2 |
         
         \repeat volta 2
         {
-          c4 d e f |
+          c,4 d e f |
           g4 a b c |
           a1 |
           r1 |
@@ -532,17 +532,17 @@ tenorSax =
         
         \repeat volta 3
         {
-          fis1 |
-          e2 fis |
+          a1 |
+          a2 b |
         }
         \alternative
         {
           {
-            d1 |
-            fis2 e |
+            g1 |
+            a2 a |
           }
           {
-            g1 |
+            b1 |
             r1
           }
         }
@@ -569,8 +569,8 @@ trombone = {
         }
         \alternative
         {
-          { g16-. g8-. g16 ~ g8 e16-. f-. b,-. b8-. b16 ~ b8 e | }
-          { g16-. g8-. g16 ~ g8 e16-. f-. b,-. b8-. b16 ~ b8 r | }
+          { g16-. g8-. g16 ~ g8 e16-. f-. f-. f8-. f16 ~ f8 e | }
+          { g16-. g8-. g16 ~ g8 e16-. f-. f-. f8-. f16 ~ f8 r | }
         }
 
         \repeat volta 2
@@ -588,7 +588,7 @@ trombone = {
         
         \repeat volta 2
         {
-          c4 d e f |
+          c,4 d e f |
           g4 a b c |
           a1 |
           r1 |
@@ -664,7 +664,7 @@ trombone = {
             d2 cis |
           }
           {
-            e1 |
+            d1 |
             r1
           }
         }
