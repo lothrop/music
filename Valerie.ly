@@ -14,12 +14,38 @@ global =
 
 trumpetBbI =
 {
-  \transpose c c
+  \transpose c d
   {
     \relative c'
     {
-      \key es \major
+      \key f \major
       {
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+      
+        \repeat volta 2
+        {
+          r1 |
+          r1 |
+          r1 |
+        }
+        \alternative
+        {
+          { r1 | }
+          { r1 | }
+        }
+        \bar "||"
+        
+        d'1 |
+        c2 r |
+        d2. e4 |
+        c2 r |
+        d1 |
+        c1 |
+        e1 ~ |
+        e1 |
       }
     }
   }
@@ -27,12 +53,38 @@ trumpetBbI =
 
 trumpetBbII =
 {
-  \transpose c c
+  \transpose c d
   {
     \relative c'
     {
-      \key es \major
+      \key f \major
       {
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+      
+        \repeat volta 2
+        {
+          r1 |
+          r1 |
+          r1 |
+        }
+        \alternative
+        {
+          { r1 | }
+          { r1 | }
+        }
+        \bar "||"
+        
+        f1 |
+        e2 r |
+        f2. g4 |
+        e2 r |
+        f1 |
+        e1 |
+        g1 ~ |
+        g1 |
       }
     }
   }
@@ -40,38 +92,38 @@ trumpetBbII =
 
 baritoneSax =
 {
-  \transpose c c
+  \transpose c a
   {
-    \relative c'
+    \relative c
     {
-      \key es \major
+      \key f \major
       {
         r1 |
         r1 |
         r1 |
-        r2 r4 r8 d |
+        r2 r4 r8 e |
       
         \repeat volta 2
         {
-          es8 r8 r4 r2 |
-          r2 r4 r8 es |
           f8 r8 r4 r2 |
-          
+          r2 r4 r8 f |
+          g8 r8 r4 r2 |
         }
         \alternative
         {
-          { r2 r4 r8 d | }
-          { r2 r4 r8 g | | }
+          { r2 r4 r8 e | }
+          { r2 r4 r8 a | }
         }
-        
-        as1 |
-        g2 r4 r8 g |
-        as2. bes4 |
-        g1 |
-        as1 |
-        g2 ~ g8 g8 as a |
-        bes1 ~ |
+        \bar "||"
+
         bes1 |
+        a2 r4 r8 a |
+        bes2. c4 |
+        a2 r |
+        bes1 |
+        a2 ~ a8 a8 bes b |
+        c1 ~ |
+        c1 |
       }  
     }
   }
@@ -79,12 +131,38 @@ baritoneSax =
 
 tenorSax =
 {
-  \transpose c c
+  \transpose c d
   {
     \relative c'
     {
-      \key es \major
+      \key f \major
       {
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+      
+        \repeat volta 2
+        {
+          r1 |
+          r1 |
+          r1 |
+        }
+        \alternative
+        {
+          { r1 | }
+          { r1 | }
+        }
+        \bar "||"
+        
+        f1 |
+        e2 r |
+        f2. g4 |
+        e2 r |
+        f1 |
+        e1 |
+        g1 ~ |
+        g1 |
       }
     }
   }
@@ -94,10 +172,36 @@ tromboneI =
 {
   \transpose c c
   {
-    \relative c'
+    \relative c
     {
-      \key es \major
+      \key f \major
       {
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+      
+        \repeat volta 2
+        {
+          r1 |
+          r1 |
+          r1 |
+        }
+        \alternative
+        {
+          { r1 | }
+          { r1 | }
+        }
+        \bar "||"
+        
+        d'1 |
+        c2 r |
+        d2. e4 |
+        c2 r |
+        d1 |
+        c1 |
+        e1 ~ |
+        e1 |
       }
     }
   }
@@ -107,10 +211,36 @@ tromboneII =
 {
   \transpose c c
   {
-    \relative c'
+    \relative c
     {
-      \key es \major
+      \key f \major
       {
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+      
+        \repeat volta 2
+        {
+          r1 |
+          r1 |
+          r1 |
+        }
+        \alternative
+        {
+          { r1 | }
+          { r1 | }
+        }
+        \bar "||"
+
+        bes1 |
+        a2 r2 |
+        bes2. c4 |
+        a2 r |
+        bes1 |
+        a1 |
+        c,1 ~ |
+        c1 |
       }
     }
   }
