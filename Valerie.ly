@@ -24,7 +24,9 @@ trumpetBbI =
         r1 |
         r1 |
         r1 |
-      
+
+        \mark \markup { \musicglyph #"scripts.segno" }
+
         \repeat volta 2
         {
           r1 |
@@ -58,7 +60,16 @@ trumpetBbI =
           { r8 bes r bes bes16 c8 d16 r4 | }
           { r8 bes r bes bes16 c8 d16 r4 | }
         }
-        \bar "||"
+        
+        \mark \markup{ \musicglyph #"scripts.segno" \italic "D.S. al Fine"}       
+        
+        \repeat volta 2
+        {
+          r8 c r c c16 d8 e16 r4 |
+          r8 c r c c16 d8 e16 r4 |
+          r8 d r d d16 e8 f16 r4 |
+          r8 d r d d16 e8 f16 r4 |
+        }
       }
     }
   }
@@ -110,7 +121,14 @@ trumpetBbII =
           { r8 g r g g16 a8 bes16 r4 | }
           { r8 g r g g16 a8 bes16 r4 | }
         }
-        \bar "||"
+        
+        \repeat volta 2
+        {
+          r8 a r a a16 bes8 c16 r4 |
+          r8 a r a a16 bes8 c16 r4 |
+          r8 bes r bes bes16 c8 d16 r4 |
+          r8 bes r bes bes16 c8 d16 r4 |
+        }
       }
     }
   }
@@ -162,7 +180,14 @@ tenorSax =
           { r8 g r g g16 a8 bes16 r4 | }
           { r8 g r g g16 a8 bes16 r4 | }
         }
-        \bar "||"
+
+         \repeat volta 2
+        {
+          r8 a r a a16 bes8 c16 r4 |
+          r8 a r a a16 bes8 c16 r4 |
+          r8 bes r bes bes16 c8 d16 r4 |
+          r8 bes r bes bes16 c8 d16 r4 |
+        }
       }
     }
   }
@@ -214,7 +239,14 @@ baritoneSax =
           { r8 d r d d16 e8 f16 r4 | }
           { r8 d r d d16 e8 f16 r8 e,8 | }
         }
-        \bar "||"
+
+        \repeat volta 2
+        {
+          r8 f' r f f16 g8 a16 r4 |
+          r8 f r f f16 g8 a16 r4 |
+          r8 g r g g16 a8 bes16 r4 |
+          r8 g r g g16 a8 bes16 r4 |
+        }
       }  
     }
   }
@@ -266,7 +298,14 @@ tromboneI =
           { r8 bes r bes bes16 c8 d16 r4 | }
           { r8 bes r bes bes16 c8 d16 r4 | }
         }
-        \bar "||"
+        
+        \repeat volta 2
+        {
+          r8 c r c c16 d8 e16 r4 |
+          r8 c r c c16 d8 e16 r4 |
+          r8 d r d d16 e8 f16 r4 |
+          r8 d r d d16 e8 f16 r4 |
+        }
       }
     }
   }
@@ -318,7 +357,14 @@ tromboneII =
           { r8 d r d d16 e8 f16 r4 | }
           { r8 d r d d16 e8 f16 r4 | }
         }
-        \bar "||"
+
+        \repeat volta 2
+        {
+          r8 f r f f16 g8 a16 r4 |
+          r8 f r f f16 g8 a16 r4 |
+          r8 g r g g16 a8 bes16 r4 |
+          r8 g r g g16 a8 bes16 r4 |
+        }
       }
     }
   }
