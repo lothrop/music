@@ -90,7 +90,7 @@ trumpetBbI =
           s1
           \bar ""
         }
-        <>^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda"} } }
+        <>^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }
 
         \repeat unfold 3
         {
@@ -109,14 +109,14 @@ trumpetBbI =
         \bar "||"
         
         r8 d-. r d-. r d-. r d( |
-        cis8) cis-. r cis-. r cis-. r cis( |
-        b8) b-. r b-. r b-. r b( |
-        a8) a-. r a-. r e'-. r e( |
+        cis8-.) cis-. r cis-. r cis-. r cis( |
+        b8-.) b-. r b-. r b-. r b( |
+        a8-.) a-. r a-. r e'-. r e( |
         
-        d8) d-. r d-. r d-. r d( |
-        cis8) cis-. r cis-. r cis-. r cis( |
-        b8) b-. r b-. r b-. r b( |
-        a8) a-. r a-. r e'-. r e-. |
+        d8-.) d-. r d-. r d-. r d( |
+        cis8-.) cis-. r cis-. r cis-. r cis( |
+        b8-.) b-. r b-. r b-. r b( |
+        a8-.) a-. r a-. r e'-. r e-. |
         
         d,4^"molto accel." e fis g |
         a4 b cis d |
@@ -241,14 +241,14 @@ trumpetBbII =
         \bar "||"
         
         r8 d-. r d-. r d-. r d( |
-        cis8) cis-. r cis-. r cis-. r cis( |
-        b8) b-. r b-. r b-. r b( |
-        a8) a-. r a-. r e'-. r e( |
+        cis8-.) cis-. r cis-. r cis-. r cis( |
+        b8-.) b-. r b-. r b-. r b( |
+        a8-.) a-. r a-. r e'-. r e( |
         
-        d8) d-. r d-. r d-. r d( |
-        cis8) cis-. r cis-. r cis-. r cis( |
-        b8) b-. r b-. r b-. r b( |
-        a8) a-. r a-. r e'-. r e-. |
+        d8-.) d-. r d-. r d-. r d( |
+        cis8-.) cis-. r cis-. r cis-. r cis( |
+        b8-.) b-. r b-. r b-. r b( |
+        a8-.) a-. r a-. r e'-. r e-. |
         
         r1 |
         d4 e fis g |
@@ -376,14 +376,14 @@ altoSax =
         \bar "||"
         
         r8 d-. r d-. r d-. r d( |
-        cis8) cis-. r cis-. r cis-. r cis( |
-        b8) b-. r b-. r b-. r b( |
-        a8) a-. r a-. r e'-. r e( |
+        cis8-.) cis-. r cis-. r cis-. r cis( |
+        b8-.) b-. r b-. r b-. r b( |
+        a8-.) a-. r a-. r e'-. r e( |
         
-        d8) d-. r d-. r d-. r d( |
-        cis8) cis-. r cis-. r cis-. r cis( |
-        b8) b-. r b-. r b-. r b( |
-        a8) a-. r a-. r e'-. r e-. |
+        d8-.) d-. r d-. r d-. r d( |
+        cis8-.) cis-. r cis-. r cis-. r cis( |
+        b8-.) b-. r b-. r b-. r b( |
+        a8-.) a-. r a-. r e'-. r e-. |
         
         r1 |
         fis4 g a b |
@@ -511,14 +511,14 @@ tenorSax =
         \bar "||"
         
         r8 d-. r d-. r d-. r d( |
-        cis8) cis-. r cis-. r cis-. r cis( |
-        b8) b-. r b-. r b-. r b( |
-        a8) a-. r a-. r e'-. r e( |
+        cis8-.) cis-. r cis-. r cis-. r cis( |
+        b8-.) b-. r b-. r b-. r b( |
+        a8-.) a-. r a-. r e'-. r e( |
         
-        d8) d-. r d-. r d-. r d( |
-        cis8) cis-. r cis-. r cis-. r cis( |
-        b8) b-. r b-. r b-. r b( |
-        a8) a-. r a-. r e'-. r e-. |
+        d8-.) d-. r d-. r d-. r d( |
+        cis8-.) cis-. r cis-. r cis-. r cis( |
+        b8-.) b-. r b-. r b-. r b( |
+        a8-.) a-. r a-. r e'-. r e-. |
         
         d,4 e fis g |
         a4 b cis d |
@@ -569,8 +569,8 @@ trombone = {
         }
         \alternative
         {
-          { g16-. g8-. g16 ~ g8 e16-. f-. f-. f8-. f16 ~ f8 e | }
-          { g16-. g8-. g16 ~ g8 e16-. f-. f-. f8-. f16 ~ f8 r | }
+          { g16-. g8-. g16 ~ g8 e16-. f-. g-. g8-. g16 ~ g8 e | }
+          { g16-. g8-. g16 ~ g8 e16-. f-. g-. g8-. g16 ~ g8 r | }
         }
 
         \repeat volta 2
@@ -633,14 +633,14 @@ trombone = {
         \time 4/4 d1 |
 
         r8 d-. r d-. r d-. r d( |
-        cis) cis-. r cis-. r cis-. r cis( |
-        b) b-. r b-. r b-. r b( |
-        a) a-. r a-. r e'-. r e( |
+        cis-.) cis-. r cis-. r cis-. r cis( |
+        b-.) b-. r b-. r b-. r b( |
+        a-.) a-. r a-. r e'-. r e( |
         
-        d) d-. r d-. r d-. r d( |
-        cis) cis-. r cis-. r cis-. r cis( |
-        b) b-. r b-. r b-. r b( |
-        a) a-. r a-. r e'-. r e-. |
+        d-.) d-. r d-. r d-. r d( |
+        cis-.) cis-. r cis-. r cis-. r cis( |
+        b-.) b-. r b-. r b-. r b( |
+        a-.) a-. r a-. r e'-. r e-. |
 
         d,4 e fis g |
         fis4 g a b |
@@ -664,7 +664,7 @@ trombone = {
             d2 cis |
           }
           {
-            d1 |
+            e1 |
             r1
           }
         }
