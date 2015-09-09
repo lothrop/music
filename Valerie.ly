@@ -230,8 +230,8 @@ baritoneSax =
 
         \repeat volta 2
         {
-          r8 c r c c16 d8 f16 r4 |
-          r8 c r c c16 d8 f16 r4 |
+          r8 c r c c16 d8 e16 r4 |
+          r8 c r c c16 d8 e16 r4 |
           r8 d r d d16 e8 f16 r4 |
         }
         \alternative
@@ -348,8 +348,8 @@ tromboneII =
 
         \repeat volta 2
         {
-          r8 c' r c c16 d8 f16 r4 |
-          r8 c r c c16 d8 f16 r4 |
+          r8 c' r c c16 d8 e16 r4 |
+          r8 c r c c16 d8 e16 r4 |
           r8 d r d d16 e8 f16 r4 |
         }
         \alternative
