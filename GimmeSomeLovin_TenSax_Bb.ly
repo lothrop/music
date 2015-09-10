@@ -6,14 +6,14 @@ TSaxB =  \relative c' {
       R1 *2
     }
     \repeat volta 2 {
-      e'1(^ \markup { \bold { "Brass Melody" } }
-      e2) \tuplet 3/2 {dis4 e dis}
-      cis1(}
+      cis'1(^ \markup { \bold { "Brass Melody" } }
+      cis2) \tuplet 3/2 {b4 cis b}
+      ais1(}
       \alternative {
-     { cis2.)r4 | }
-     { cis2) r4 
+     { ais2.)r4 | }
+     { ais2) r4 
                   \override NoteHead.style = #'cross
-                  eis,4^>- \markup { \italic { "Hey!" } }
+                  eis'4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style
                    |}   
     }
@@ -22,14 +22,14 @@ TSaxB =  \relative c' {
      \bar "||"  
 
      R1 *3^ \markup { \bold { "Verse 1" } }
-     r2 e'8^. dis4 cis8(
+     r2 e8^. dis4 cis8(
      cis2.) r4
      R1 *3 
       \bar "||"   
-      fis2..^- ^ \markup { \bold { "Bridge" } } e8^-(
+      cis2..^- ^ \markup { \bold { "Bridge" } } e8^-(
       e1)
-      dis2..^- fis8^-(
-      fis1)
+      b2..^- d8^-(
+      d1)
        \bar "||" 
        R1^ \markup { \bold { "Refrain" } }
        r2 dis8 cis8^. ais8^. cis8(

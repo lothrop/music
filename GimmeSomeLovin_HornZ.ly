@@ -36,7 +36,7 @@ TrpOne = \new Staff \with {
 }
 {
 \tempo 4 = 144
-\transpose fis g \TrpOneB
+\transpose a g \TrpOneB
 }
 
 % Trumpet2 in B
@@ -46,7 +46,7 @@ TrpTwo = \new Staff \with {
 }
 {
 \tempo 4 = 144
-\transpose fis g \TrpTwoB
+\transpose a g \TrpTwoB
 }
 
 % Alto Saxophone in Eb
@@ -55,7 +55,7 @@ AltoSax = \new Staff \with {
   shortInstrumentName = #"ASax"
 } 
 {
-\transpose fis g \ASaxB
+\transpose a c' \ASaxB
 }
 
 % Tenor Saxophone in Bb
@@ -64,7 +64,7 @@ TenorSax = \new Staff \with {
   shortInstrumentName = #"TSax"
 } 
 {
-\transpose fis g \TSaxB
+\transpose a g \TSaxB
 }
 % Trombone in C
 TbnOne = \new Staff  \with {
@@ -72,7 +72,7 @@ TbnOne = \new Staff  \with {
   shortInstrumentName = #"Tbn 1"
 }
 {
-\transpose fis g  \TbnOneC
+\transpose a a \TbnOneC
 }
 
 % Trombone in C
@@ -81,7 +81,7 @@ TbnTwo = \new Staff  \with {
   shortInstrumentName = #"Tbn 2"
 }
 {
-\transpose fis g  \TbnTwoC
+\transpose a a \TbnTwoC
 }
 
 

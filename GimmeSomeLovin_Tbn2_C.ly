@@ -10,14 +10,14 @@ TbnTwoC = \transpose c bes, {
       R1 *2
     }
     \repeat volta 2 {
-      e1(^ \markup { \bold { "Brass Melody" } }
-      e2) \tuplet 3/2 {d4 e d}
-      c1(}
+      cis1(^ \markup { \bold { "Brass Melody" } }
+      cis2) \tuplet 3/2 {b4 cis b}
+      ais1(}
       \alternative {
-     { c2.)r4 | }
-     { c2) r4 
+     { ais2.)r4 | }
+     { ais2) r4 
                   \override NoteHead.style = #'cross
-                  eis,4^>- \markup { \italic { "Hey!" } }
+                  eis'4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style
                    |}   
     }
@@ -26,17 +26,17 @@ TbnTwoC = \transpose c bes, {
      \bar "||"  
 
      R1 *3^ \markup { \bold { "Verse 1" } }
-     r2 e'8^. dis4 cis8(
+     r2 e8^. dis4 cis8(
      cis2.) r4
      R1 *3 
       \bar "||"   
-      fis2..^- ^ \markup { \bold { "Bridge" } } eis8^-(
-      eis1)
-      dis2..^- fis8^-(
-      fis1)
+      fis,2..^- ^ \markup { \bold { "Bridge" } } a8^-(
+      a1)
+      b2..^- d,8^-(
+      d1)
        \bar "||" 
        R1^ \markup { \bold { "Refrain" } }
-       r2 dis8 cis8^. ais8^. cis8(
+       r2 dis'8 cis8^. ais8^. cis8(
        cis4) dis8^> r8 r2
     r2 ais8 gis8^. fis8^. fis8( 
     fis4) dis8^> r8 r2
@@ -45,12 +45,12 @@ TbnTwoC = \transpose c bes, {
           R1*2
          \repeat volta 2 {
       e'1(^ \markup { \bold { "Brass Melody" } }
-      e2) \tuplet 3/2 {d4 e d}
-      c1(
+      e2) \tuplet 3/2 {dis4 e dis}
+      cis1(
          }
       \alternative {
-     { c2.)r4 | }
-     { c2) r4 
+     { cis2.)r4 | }
+     { cis2) r4 
                  \override NoteHead.style = #'cross
                  eis,4^>- \markup { \italic { "Hey!" } }
                  \revert NoteHead.style
@@ -64,8 +64,8 @@ TbnTwoC = \transpose c bes, {
      cis2.) r4
      R1*3
       \bar "||"   
-      fis2..^- ^ \markup { \bold { "Bridge" } } eis8^-(
-      eis1)
+      fis2..^- ^ \markup { \bold { "Bridge" } } e8^-(
+      e1)
       dis2..^- fis8^-(
       fis1)
        \bar "||" 
@@ -81,12 +81,12 @@ TbnTwoC = \transpose c bes, {
       \bar "||"   
              \repeat volta 2 {
       e1(^ \markup { \bold { "Brass Melody" } }
-      e2) \tuplet 3/2 {d4 e d}
-      c1(
+      e2) \tuplet 3/2 {dis4 e dis}
+      cis1(
          }
       \alternative {
-     { c2.)r4 | }
-     { c2) r4 
+     { cis2.)r4 | }
+     { cis2) r4 
                   \override NoteHead.style = #'cross
                   eis,4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style

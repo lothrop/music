@@ -10,12 +10,12 @@ TbnOneC = \transpose c bes, {
       R1 *2
     }
     \repeat volta 2 {
-      e1(^ \markup { \bold { "Brass Melody" } }
-      e2) \tuplet 3/2 {d4 e d}
-      c1(}
+      e'1(^ \markup { \bold { "Brass Melody" } }
+      e2) \tuplet 3/2 {dis4 e dis}
+      cis1(}
       \alternative {
-     { c2.)r4 | }
-     { c2) r4 
+     { cis2.)r4 | }
+     { cis2) r4 
                   \override NoteHead.style = #'cross
                   eis,4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style
@@ -30,9 +30,9 @@ TbnOneC = \transpose c bes, {
      cis2.) r4
      R1 *3 
       \bar "||"   
-      fis2..^- ^ \markup { \bold { "Bridge" } } eis8^-(
-      eis1)
-      dis2..^- fis8^-(
+      cis2..^- ^ \markup { \bold { "Bridge" } } cis8^-(
+      cis1)
+      fis2..^- fis8^-(
       fis1)
        \bar "||" 
        R1^ \markup { \bold { "Refrain" } }
@@ -45,12 +45,12 @@ TbnOneC = \transpose c bes, {
           R1*2
          \repeat volta 2 {
       e'1(^ \markup { \bold { "Brass Melody" } }
-      e2) \tuplet 3/2 {d4 e d}
-      c1(
+      e2) \tuplet 3/2 {dis4 e dis}
+      cis1(
          }
       \alternative {
-     { c2.)r4 | }
-     { c2) r4 
+     { cis2.)r4 | }
+     { cis2) r4 
                  \override NoteHead.style = #'cross
                  eis,4^>- \markup { \italic { "Hey!" } }
                  \revert NoteHead.style
@@ -64,8 +64,8 @@ TbnOneC = \transpose c bes, {
      cis2.) r4
      R1*3
       \bar "||"   
-      fis2..^- ^ \markup { \bold { "Bridge" } } eis8^-(
-      eis1)
+      fis2..^- ^ \markup { \bold { "Bridge" } } e8^-(
+      e1)
       dis2..^- fis8^-(
       fis1)
        \bar "||" 
@@ -81,12 +81,12 @@ TbnOneC = \transpose c bes, {
       \bar "||"   
              \repeat volta 2 {
       e1(^ \markup { \bold { "Brass Melody" } }
-      e2) \tuplet 3/2 {d4 e d}
-      c1(
+      e2) \tuplet 3/2 {dis4 e dis}
+      cis1(
          }
       \alternative {
-     { c2.)r4 | }
-     { c2) r4 
+     { cis2.)r4 | }
+     { cis2) r4 
                   \override NoteHead.style = #'cross
                   eis,4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style

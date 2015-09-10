@@ -6,14 +6,14 @@ TrpTwoB =  \relative c' {
       R1 *2
     }
     \repeat volta 2 {
-      e'1(^ \markup { \bold { "Brass Melody" } }
-      e2) \tuplet 3/2 {dis4 e dis}
-      cis1(}
+      gis'1(^ \markup { \bold { "Brass Melody" } }
+      gis2) \tuplet 3/2 {fis4 gis fis}
+      e1(}
       \alternative {
-     { cis2.)r4 | }
-     { cis2) r4 
+     { e2.)r4 | }
+     { e2) r4 
                   \override NoteHead.style = #'cross
-                  eis,4^>- \markup { \italic { "Hey!" } }
+                  eis4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style
                    |}   
     }
@@ -26,10 +26,10 @@ TrpTwoB =  \relative c' {
      cis2.) r4
      R1 *3 
       \bar "||"   
-      fis2..^- ^ \markup { \bold { "Bridge" } } e8^-(
-      e1)
-      dis2..^- fis8^-(
-      fis1)
+      ais2..^- ^ \markup { \bold { "Bridge" } } cis8^-(
+      cis1)
+      dis2..^- d8^-(
+      d1)
        \bar "||" 
        R1^ \markup { \bold { "Refrain" } }
        r2 dis8 cis8^. ais8^. cis8(
