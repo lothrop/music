@@ -1,13 +1,14 @@
 % Winwood - Gimme Some Lovin
-ASaxB =  \relative c' {
+ASaxB = \transpose c g {
+    \relative c' {
      \key dis \minor
     \time 4/4
     \repeat volta 2 {
       R1 *2
     }
     \repeat volta 2 {
-      e'1(^ \markup { \bold { "Brass Melody" } }
-      e4) r4 \tuplet 3/2 {dis e dis}
+      e1(^ \markup { \bold { "Brass Melody" } }
+      e2) \tuplet 3/2 {dis4 e dis}
       cis1(}
       \alternative {
      { cis2.)r4 | }
@@ -41,7 +42,7 @@ ASaxB =  \relative c' {
           R1*2
          \repeat volta 2 {
       e1(^ \markup { \bold { "Brass Melody" } }
-      e4) r4 \tuplet 3/2 {dis e dis}
+      e2) \tuplet 3/2 {dis4 e dis}
       cis1(
          }
       \alternative {
@@ -77,7 +78,7 @@ ASaxB =  \relative c' {
       \bar "||"   
              \repeat volta 2 {
       e1(^ \markup { \bold { "Brass Melody" } }
-      e4) r4 \tuplet 3/2 {dis e dis}
+      e2) \tuplet 3/2 {dis4 e dis}
       cis1(
          }
       \alternative {
@@ -118,4 +119,5 @@ ASaxB =  \relative c' {
        fis'4^> r4 r2
        \bar "|."
   }
+}
 

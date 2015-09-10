@@ -7,7 +7,7 @@ TSaxB =  \relative c' {
     }
     \repeat volta 2 {
       e'1(^ \markup { \bold { "Brass Melody" } }
-      e4) r4 \tuplet 3/2 {dis e dis}
+      e2) \tuplet 3/2 {dis4 e dis}
       cis1(}
       \alternative {
      { cis2.)r4 | }
@@ -41,7 +41,7 @@ TSaxB =  \relative c' {
           R1*2
          \repeat volta 2 {
       e1(^ \markup { \bold { "Brass Melody" } }
-      e4) r4 \tuplet 3/2 {dis e dis}
+      e2) \tuplet 3/2 {dis4 e dis}
       cis1(
          }
       \alternative {
@@ -77,7 +77,7 @@ TSaxB =  \relative c' {
       \bar "||"   
              \repeat volta 2 {
       e1(^ \markup { \bold { "Brass Melody" } }
-      e4) r4 \tuplet 3/2 {dis e dis}
+      e2) \tuplet 3/2 {dis4 e dis}
       cis1(
          }
       \alternative {

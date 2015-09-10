@@ -31,7 +31,7 @@
 
 % Trumpet 1 in B
 TrpOne = \new Staff \with {
-  instrumentName = #"Trumpet 1 in B" \flatglyph " "
+  instrumentName = \markup { \concat { "Trumpet 1 in B" \flatglyph " " } }
   shortInstrumentName = #"Trp"
 }
 {
@@ -41,7 +41,7 @@ TrpOne = \new Staff \with {
 
 % Trumpet2 in B
 TrpTwo = \new Staff \with {
-  instrumentName = #"Trumpet 2 in B" \flatglyph " "
+  instrumentName = \markup { \concat { "Trumpet 2 in B" \flatglyph " " } }
   shortInstrumentName = #"Trp"
 }
 {
@@ -51,7 +51,7 @@ TrpTwo = \new Staff \with {
 
 % Alto Saxophone in Eb
 AltoSax = \new Staff \with {
-  instrumentName = #"Alto Sax in E" \flatglyph " "
+  instrumentName = \markup { \concat { "Alto Sax in E" \flatglyph " " } }
   shortInstrumentName = #"ASax"
 } 
 {
@@ -60,7 +60,7 @@ AltoSax = \new Staff \with {
 
 % Tenor Saxophone in Bb
 TenorSax = \new Staff \with {
-  instrumentName = #"Tenor Sax in B" \flatglyph " "
+  instrumentName = \markup { \concat { "Tenor Sax in B" \flatglyph " " } }
   shortInstrumentName = #"TSax"
 } 
 {
@@ -96,7 +96,7 @@ TbnTwo = \new Staff  \with {
      \TbnTwo
 >>
 
-%\midi { }
+\midi { }
 \layout {}    
 }
   
