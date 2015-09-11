@@ -36,22 +36,21 @@ TrpTwoB =  \relative c' {
        cis4) dis8^> r8 r2
     r2 ais8 gis8^. fis8^. fis8( 
     fis4) dis8^> r8 r2
-    r2 dis'8^. fis4^> fis8 ^>
+    r2 dis8^. fis4^> fis8 ^>
           \bar "||" 
           R1*2
-         \repeat volta 2 {
-      e1(^ \markup { \bold { "Brass Melody" } }
-      e2) \tuplet 3/2 {dis4 e dis}
-      cis1(
-         }
+    \repeat volta 2 {
+      gis1(^ \markup { \bold { "Brass Melody" } }
+      gis2) \tuplet 3/2 {fis4 gis fis}
+      e1(}
       \alternative {
-     { cis2.)r4 | }
-     { cis2) r4 
-                 \override NoteHead.style = #'cross
-                 eis,4^>- \markup { \italic { "Hey!" } }
-                 \revert NoteHead.style
-                  | }   
-      }
+     { e2.)r4 | }
+     { e2) r4 
+                  \override NoteHead.style = #'cross
+                  eis4^>- \markup { \italic { "Hey!" } }
+                  \revert NoteHead.style
+                   |}   
+    }
         \bar "||" 
           R1*2
           \bar "||"   
@@ -60,10 +59,10 @@ TrpTwoB =  \relative c' {
      cis2.) r4
      R1*3
       \bar "||"   
-      fis2..^- ^ \markup { \bold { "Bridge" } } e8^-(
-      e1)
-      dis2..^- fis8^-(
-      fis1)
+      ais2..^- ^ \markup { \bold { "Bridge" } } cis8^-(
+      cis1)
+      dis2..^- d8^-(
+      d1)
        \bar "||" 
   \bar "||" 
        R1^ \markup { \bold { "Refrain" } }
@@ -71,23 +70,22 @@ TrpTwoB =  \relative c' {
        cis4) dis8^> r8 r2
     r2 ais8 gis8^. fis8^. fis8( 
     fis4) dis8^> r8 r2
-    r2 dis'8^. fis4^> fis8 ^>
+    r2 dis8^. fis4^> fis8 ^>
           \bar "||"       
           R1*2
       \bar "||"   
-             \repeat volta 2 {
-      e1(^ \markup { \bold { "Brass Melody" } }
-      e2) \tuplet 3/2 {dis4 e dis}
-      cis1(
-         }
+    \repeat volta 2 {
+      gis1(^ \markup { \bold { "Brass Melody" } }
+      gis2) \tuplet 3/2 {fis4 gis fis}
+      e1(}
       \alternative {
-     { cis2.)r4 | }
-     { cis2) r4 
+     { e2.)r4 | }
+     { e2) r4 
                   \override NoteHead.style = #'cross
-                  eis,4^>- \markup { \italic { "Hey!" } }
+                  eis4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style
-                  | }  
-      }
+                   |}   
+    }
         \bar "||" 
           R1*2
           \bar "||"   
@@ -96,10 +94,10 @@ TrpTwoB =  \relative c' {
    cis2.) r4
    R1*3
    \bar "||"   
-      fis2..^- ^ \markup { \bold { "Bridge" } } e8^-(
-      e1)
-      dis2..^- fis8^-(
-      fis1)
+      ais2..^- ^ \markup { \bold { "Bridge" } } cis8^-(
+      cis1)
+      dis2..^- d8^-(
+      d1)
        \bar "||"   
         R1^ \markup { \bold { "Refrain" } }
        r2 dis8 cis8^. ais8^. cis8(
@@ -115,7 +113,7 @@ TrpTwoB =  \relative c' {
           r2 dis'8 cis8^. ais8^. cis8(
        cis4) dis8^> r8 r2
        r2 ais8 gis^. fis^. fis
-       fis'4^> r4 r2
+       fis4^> r4 r2
        \bar "|."
   }
 

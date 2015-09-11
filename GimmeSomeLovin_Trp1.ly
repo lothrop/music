@@ -75,7 +75,7 @@ TrpOneB =  \relative c' {
           \bar "||"       
           R1*2
       \bar "||"   
-             \repeat volta 2 {
+         \repeat volta 2 {
       e1(^ \markup { \bold { "Brass Melody" } }
       e2) \tuplet 3/2 {dis4 e dis}
       cis1(
@@ -83,10 +83,10 @@ TrpOneB =  \relative c' {
       \alternative {
      { cis2.)r4 | }
      { cis2) r4 
-                  \override NoteHead.style = #'cross
-                  eis,4^>- \markup { \italic { "Hey!" } }
-                  \revert NoteHead.style
-                  | }  
+                 \override NoteHead.style = #'cross
+                 eis,4^>- \markup { \italic { "Hey!" } }
+                 \revert NoteHead.style
+                  | }   
       }
         \bar "||" 
           R1*2

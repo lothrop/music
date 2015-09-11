@@ -43,19 +43,18 @@ TbnOneC = \transpose c bes, {
     r2 dis8^. fis4^> fis8 ^>
           \bar "||" 
           R1*2
-         \repeat volta 2 {
+    \repeat volta 2 {
       e'1(^ \markup { \bold { "Brass Melody" } }
       e2) \tuplet 3/2 {dis4 e dis}
-      cis1(
-         }
+      cis1(}
       \alternative {
      { cis2.)r4 | }
      { cis2) r4 
-                 \override NoteHead.style = #'cross
-                 eis,4^>- \markup { \italic { "Hey!" } }
-                 \revert NoteHead.style
-                  | }   
-      }
+                  \override NoteHead.style = #'cross
+                  eis,4^>- \markup { \italic { "Hey!" } }
+                  \revert NoteHead.style
+                   |}   
+    }
         \bar "||" 
           R1*2
           \bar "||"   
@@ -64,34 +63,33 @@ TbnOneC = \transpose c bes, {
      cis2.) r4
      R1*3
       \bar "||"   
-      fis2..^- ^ \markup { \bold { "Bridge" } } e8^-(
-      e1)
-      dis2..^- fis8^-(
+      cis2..^- ^ \markup { \bold { "Bridge" } } cis8^-(
+      cis1)
+      fis2..^- fis8^-(
       fis1)
        \bar "||" 
   \bar "||" 
        R1^ \markup { \bold { "Refrain" } }
        r2 dis8 cis8^. ais8^. cis8(
        cis4) dis8^> r8 r2
-    r2 ais'8 gis8^. fis8^. fis8( 
+    r2 ais8 gis8^. fis8^. fis8( 
     fis4) dis8^> r8 r2
     r2 dis8^. fis4^> fis8 ^>
           \bar "||"       
           R1*2
       \bar "||"   
-             \repeat volta 2 {
-      e1(^ \markup { \bold { "Brass Melody" } }
+    \repeat volta 2 {
+      e'1(^ \markup { \bold { "Brass Melody" } }
       e2) \tuplet 3/2 {dis4 e dis}
-      cis1(
-         }
+      cis1(}
       \alternative {
      { cis2.)r4 | }
      { cis2) r4 
                   \override NoteHead.style = #'cross
                   eis,4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style
-                  | }  
-      }
+                   |}   
+    }
         \bar "||" 
           R1*2
           \bar "||"   
@@ -100,15 +98,15 @@ TbnOneC = \transpose c bes, {
    cis2.) r4
    R1*3
    \bar "||"   
-      fis2..^- ^ \markup { \bold { "Bridge" } } eis8^-(
-      eis1)
-      dis2..^- fis8^-(
+      cis2..^- ^ \markup { \bold { "Bridge" } } cis8^-(
+      cis1)
+      fis2..^- fis8^-(
       fis1)
        \bar "||"   
         R1^ \markup { \bold { "Refrain" } }
        r2 dis8 cis8^. ais8^. cis8(
        cis4) dis8^> r8 r2
-        r2 ais'8 gis8^. fis8^. fis8( 
+        r2 ais8 gis8^. fis8^. fis8( 
      \repeat volta 2 {      
     fis4) dis8^> r8 r2
     r2 dis8 cis8^. ais8^. cis8(

@@ -21,32 +21,32 @@
 
 \header {
   title = "Gimme Some Lovin'"
-  subtitle = "(in c minor)"
+  subtitle = "(in d minor)"
   composer = "Winwood / Davis"
   arranger = "" 
   instrument = ""
   meter = "Rock Feeling"
-  tagline = "V0.3"
+  tagline = "V1.0"
 }
 
 % Trumpet 1 in B
 TrpOne = \new Staff \with {
   instrumentName = \markup { \concat { "Trumpet 1 in B" \flatglyph " " } }
-  shortInstrumentName = #"Trp"
+  shortInstrumentName = #"Trp 1"
 }
 {
 \tempo 4 = 144
-\transpose a g \TrpOneB
+\transpose fis g \TrpOneB
 }
 
 % Trumpet2 in B
 TrpTwo = \new Staff \with {
   instrumentName = \markup { \concat { "Trumpet 2 in B" \flatglyph " " } }
-  shortInstrumentName = #"Trp"
+  shortInstrumentName = #"Trp 2"
 }
 {
 \tempo 4 = 144
-\transpose a g \TrpTwoB
+\transpose fis g \TrpTwoB
 }
 
 % Alto Saxophone in Eb
@@ -55,7 +55,7 @@ AltoSax = \new Staff \with {
   shortInstrumentName = #"ASax"
 } 
 {
-\transpose a c' \ASaxB
+\transpose fis g \ASaxB
 }
 
 % Tenor Saxophone in Bb
@@ -64,7 +64,7 @@ TenorSax = \new Staff \with {
   shortInstrumentName = #"TSax"
 } 
 {
-\transpose a g \TSaxB
+\transpose fis g \TSaxB
 }
 % Trombone in C
 TbnOne = \new Staff  \with {
@@ -72,7 +72,7 @@ TbnOne = \new Staff  \with {
   shortInstrumentName = #"Tbn 1"
 }
 {
-\transpose a a \TbnOneC
+\transpose fis g \TbnOneC
 }
 
 % Trombone in C
@@ -81,7 +81,7 @@ TbnTwo = \new Staff  \with {
   shortInstrumentName = #"Tbn 2"
 }
 {
-\transpose a a \TbnTwoC
+\transpose fis g \TbnTwoC
 }
 
 
