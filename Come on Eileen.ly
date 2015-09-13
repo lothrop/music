@@ -25,11 +25,9 @@ trumpetBbI =
         g8-^ a-. g-. a16 g-. ~ g g-. a8-. g-. e16-. f-. |
         g16-. g8-. g16 ~ g8 e16-. f-. g-. g8-. g16 ~ g8 c, |
       
-        \mark \markup { \musicglyph #"scripts.segno" }
-
         \repeat volta 2
         {
-          g'4-^^"no repeat on D.S." a8. g16 r4 r8 c, |
+          g'4-^ a8. g16 r4 r8 c, |
           g'4-^ a8. g16 r4 r8 c, |
           g'4-^ a8. g16 r4 r8 e16-. f-. |
         }
@@ -41,7 +39,7 @@ trumpetBbI =
 
         \repeat volta 2
         {
-          r1^"no repeat on D.S." |
+          r1 |
           r1 |
           r1 |
           r8 g' e16 c8-. g16-> ~ g2 |
@@ -52,9 +50,58 @@ trumpetBbI =
         r1 |
         r8 g e16 c8-. g16-> ~ g2 |
         
+        \bar "||"
+
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        
+        \bar "||"
+
+        d'8-^ e-. d-. e16 d-. ~ d d-. e8-. d-. e-. |
+      }
+      
+      \key d \major
+      {
         \repeat volta 2
         {
-          c,4^"tacet 1st time, repeat only on D.S." d e f |
+          d8 a b d-. r a b d |
+          cis8 a b cis-. r a b cis-. |
+          e8 a, b e-. r a, b cis-. |
+        }
+        \alternative
+        {
+          { g'4 fis8 e8-> ~ e2 | }
+          { g4 fis8 e8-> ~ e2 ~ | }
+        }
+
+        \time 2/4 e2
+
+        \bar "||"
+      }
+      \key c \major
+      {
+        \time 4/4
+        
+        g,4-^ a8. g16 r4 r8 c, |
+        g'4-^ a8. g16 r4 r8 c, |
+        g'4-^ a8. g16 r4 r8 e16-. f-. |
+        g16-. g8-. g16 ~ g8 e16-. f-. g-. g8-. g16 ~ g8 r |
+        
+        r1 |
+        r1 |
+        r1 |
+        r8 g' e16 c8-. g16-> ~ g2 |
+        
+        r2 r8 a' g16 a8.-. |
+        r2 r8 a g16 a8.-. |
+        r1 |
+        r8 g e16 c8-. g16-> ~ g2 |
+        
+        \repeat volta 2
+        {
+          c,4^"tacet 1st time" d e f |
           g4 a b c |
           a1 |
           r1 |
@@ -67,47 +114,19 @@ trumpetBbI =
       {
         \repeat volta 3
         {
-          d8^"drop 1st repeat except in D.S." a b d-. r a b d |
+          d8 a b d-. r a b d |
           cis8 a b cis-. r a b cis-. |
           e8 a, b e-. r a, b cis-. |
         }
         \alternative
         {
           { g'4 fis8 e8-> ~ e2 | }
-          { g4 fis8 e8-> ~ e2 ~ | }
+          { g4 fis8 e8-> ~ e2( | }
         }
-        \mark \markup { \musicglyph #"scripts.coda" }
 
-        \time 2/4 e2
+        d1)^"slow, reggae style, accel." |
         
         \bar "||"
-        \mark \markup { \musicglyph #"scripts.segno" }
- 
-        \cadenzaOn
-        \stopStaff
-        \repeat unfold 1
-        {
-          s1
-          \bar ""
-        }
-        <>^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda" } } }
-
-        \repeat unfold 3
-        {
-          s1
-          \bar ""
-        }
-        \startStaff
-        \cadenzaOff
-
-        \break
-
-        \mark \markup { \musicglyph #"scripts.coda" }
-
-        \time 4/4 d1^"slow, reggae style, accel." |
-        
-        \bar "||"
-        
         r8 d-. r d-. r d-. r d( |
         cis8-.) cis-. r cis-. r cis-. r cis( |
         b8-.) b-. r b-. r b-. r b( |
@@ -123,27 +142,23 @@ trumpetBbI =
         b1 |
         a2 e'-> |
 
-        d4-^ r4 r2 |
-        a4-^ r4 r2 |
-        e'4-^ r4 r2 |
-        g,2 a |
+        d4-^ r a-^ r |
+        e'4-^ r g, a |
         
         \repeat volta 3
         {
-          fis'1^"Trumpet tacet 1st time" |
-          e2 fis |
+          fis'2^"Trumpet tacet 1st time" e4 fis |
         }
         \alternative
         {
           {
-            d1 |
-            fis2 e |
+            d2 fis4 e |
           }
           {
-            g1 |
-            r1
+            g2 r
           }
         }
+        \bar "|."
       }
     }
   }
@@ -184,6 +199,53 @@ trumpetBbII =
         r1 |
         r8 g e16 c8-. g16-> ~ g2 |
         
+        \bar "||"
+
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        
+        \bar "||"
+        
+        d'8-^ e-. d-. e16 d-. ~ d d-. e8-. d-. e-. |
+      }
+      
+      \key d \major
+      {
+        \repeat volta 2
+        {
+          d8-^ a b d-. r a b d |
+          cis8 a b cis-. r a b cis-. |
+          e8 a, b e-. r a, b cis-. |
+        }
+        \alternative
+        {
+          { g'4 fis8 e8-> ~ e2 | }
+          { g4 fis8 e8-> ~ e2 ~ | }
+        }
+
+        \time 2/4 e2
+        
+        \bar "||"
+      }
+      \key c \major
+      {
+        e4-^ f8. e16 r4 r8 e |
+        e4-^ e8. e16 r4 r8 e |
+        c4-^ c8. c16 r4 r8 e16-. f-. |
+        g16-. g8-. g16 ~ g8 e16-. f-. b,-. b8-. b16 ~ b8 r |
+        
+        r1 |
+        r1 |
+        r1 |
+        r8 g' e16 c8-. g16-> ~ g2 |
+        
+        r2 r8 f' e16 f8.-. |
+        r2 r8 e e16 e8.-. |
+        r1 |
+        r8 g e16 c8-. g16-> ~ g2 |
+        
         \repeat volta 2
         {
           c4 d e f |
@@ -206,37 +268,12 @@ trumpetBbII =
         \alternative
         {
           { g'4 fis8 e8-> ~ e2 | }
-          { g4 fis8 e8-> ~ e2 ~ | }
+          { g4 fis8 e8-> ~ e2( | }
         }
-        \mark \markup { \musicglyph #"scripts.coda" }
 
-        \time 2/4 e2
-        
         \bar "||"
-        \mark \markup { \musicglyph #"scripts.segno" }
- 
-        \cadenzaOn
-        \stopStaff
-        \repeat unfold 1
-        {
-          s1
-          \bar ""
-        }
-        <>^\markup { \center-column { "D.S. al Coda" \line { \musicglyph #"scripts.coda" \musicglyph #"scripts.tenuto" \musicglyph #"scripts.coda"} } }
-
-        \repeat unfold 3
-        {
-          s1
-          \bar ""
-        }
-        \startStaff
-        \cadenzaOff
-
-        \break
-
-        \mark \markup { \musicglyph #"scripts.coda" }
-
-        \time 4/4 d1^"slow, reggae style, accel." |
+        
+        d1) |
         
         \bar "||"
         
@@ -255,27 +292,23 @@ trumpetBbII =
         d1 |
         a'2 e'-> |
 
-        d4-^ r4 r2 |
-        a4-^ r4 r2 |
-        e'4-^ r4 r2 |
-        g,2 a |
+        d4-^ r a-^ r |
+        e'4-^ r g, a |
         
         \repeat volta 3
         {
-          a1^"Trumpet tacet 1st time" |
-          a2 b |
+          a2^"Trumpet tacet 1st time" a4 b |
         }
         \alternative
         {
           {
-            g1 |
-            a2 a |
+            g2 a4 a |
           }
           {
-            b1 |
-            r1
+            b2 r
           }
         }
+        \bar "|."
       }
     }
   }
@@ -294,8 +327,6 @@ altoSax =
         g8-^ a-. g-. a16 g-. ~ g g-. a8-. g-. e16-. f-. |
         g16-. g8-. g16 ~ g8 e16-. f-. g-. g8-. g16 ~ g8 c, |
       
-        \mark \markup { \musicglyph #"scripts.segno" }
-
         \repeat volta 2
         {
           g'4-^ a8. g16 r4 r8 c, |
@@ -315,6 +346,52 @@ altoSax =
           r1 |
           r8 g e16 c8-. g16-> ~ g2 |
         }
+        
+        r2 r8 a' g16 a8.-. |
+        r2 r8 a g16 a8.-. |
+        r1 |
+        r8 g e16 c8-. g16-> ~ g2 |
+        
+        \bar "||"
+        
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        
+        \bar "||"
+        
+        d'8-^ e-. d-. e16 d-. ~ d d-. e8-. d-. e-. |
+      }
+      
+      \key d \major
+      {
+        \repeat volta 2
+        {
+          d8 a b d-. r a b d |
+          cis8 a b cis-. r a b cis-. |
+          e8 a, b e-. r a, b cis-. |
+        }
+        \alternative
+        {
+          { g'4 fis8 e8-> ~ e2 | }
+          { g4 fis8 e8-> ~ e2 ~ | }
+        }
+        \time 2/4 e2
+        
+        \bar "||"
+      }
+      \key c \major
+      {
+        g4-^ a8. g16 r4 r8 c, |
+        g'4-^ a8. g16 r4 r8 c, |
+        g'4-^ a8. g16 r4 r8 e16-. f-. |
+        g16-. g8-. g16 ~ g8 e16-. f-. g-. g8-. g16 ~ g8 r |
+ 
+        r1 |
+        r1 |
+        r1 |
+        r8 g e16 c8-. g16-> ~ g2 |
         
         r2 r8 a' g16 a8.-. |
         r2 r8 a g16 a8.-. |
@@ -343,35 +420,11 @@ altoSax =
         \alternative
         {
           { g'4 fis8 e8-> ~ e2 | }
-          { g4 fis8 e8-> ~ e2 ~ | }
+          { g4 fis8 e8-> ~ e2( | }
         }
-        \mark \markup { \musicglyph #"scripts.coda" }
-
-        \time 2/4 e2
-        
         \bar "||"
-        \mark \markup { \musicglyph #"scripts.segno" }
- 
-        \cadenzaOn
-        \stopStaff
-        \repeat unfold 1
-        {
-          s1
-          \bar ""
-        }
-        \repeat unfold 3
-        {
-          s1
-          \bar ""
-        }
-        \startStaff
-        \cadenzaOff
 
-        \break
-
-        \mark \markup { \musicglyph #"scripts.coda" }
-
-        \time 4/4 d1 |
+        d1) |
         
         \bar "||"
         
@@ -390,27 +443,23 @@ altoSax =
         b1 |
         a2 e'-> |
 
-        d4-^ r4 r2 |
-        a4-^ r4 r2 |
-        e'4-^ r4 r2 |
-        g,2 a |
+        d4-^ r a-^ r |
+        e'4-^ r g, a |
         
         \repeat volta 3
         {
-          fis1 |
-          e2 fis |
+          fis2 e4 fis |
         }
         \alternative
         {
           {
-            d1 |
-            fis2 e |
+            d2 fis4 e |
           }
           {
-            g1 |
-            r1
+            g2 r
           }
         }
+        \bar "|."
       }
     }
   }
@@ -429,8 +478,6 @@ tenorSax =
         g8-^ a-. g-. a16 g-. ~ g g-. a8-. g-. e16-. f-. |
         g16-. g8-. g16 ~ g8 e16-. f-. g-. g8-. g16 ~ g8 c, |
       
-        \mark \markup { \musicglyph #"scripts.segno" }
-
         \repeat volta 2
         {
           e4-^ f8. e16 r4 r8 e |
@@ -450,6 +497,53 @@ tenorSax =
           r1 |
           r8 g' e16 c8-. g16-> ~ g2 |
         }
+        
+        r2 r8 a g16 a8.-. |
+        r2 r8 a g16 a8.-. |
+        r1 |
+        r8 g' e16 c8-. g16-> ~ g2 |
+        
+        \bar "||"
+        
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        
+        \bar "||"
+        
+        d8-^ e-. d-. e16 d-. ~ d d-. e8-. d-. e-. |
+      }
+      
+      \key d \major
+      {
+        \repeat volta 3
+        {
+          d'8 a b d-. r a b d |
+          cis8 a b cis-. r a b cis-. |
+          e8 a, b e-. r a, b cis-. |
+        }
+        \alternative
+        {
+          { g'4 fis8 e8-> ~ e2 | }
+          { g4 fis8 e8-> ~ e2 ~ | }
+        }
+
+        \time 2/4 e2
+        
+        \bar "||"
+      }
+      \key c \major
+      {
+        e,4-^ f8. e16 r4 r8 e |
+        e4-^ e8. e16 r4 r8 e |
+        c4-^ c8. c16 r4 r8 e16-. f-. |
+        g16-. g8-. g16 ~ g8 e16-. f-. d-. d8-. d16 ~ d8 r |
+        
+        r1 |
+        r1 |
+        r1 |
+        r8 g' e16 c8-. g16-> ~ g2 |
         
         r2 r8 a g16 a8.-. |
         r2 r8 a g16 a8.-. |
@@ -478,35 +572,12 @@ tenorSax =
         \alternative
         {
           { g'4 fis8 e8-> ~ e2 | }
-          { g4 fis8 e8-> ~ e2 ~ | }
+          { g4 fis8 e8-> ~ e2( | }
         }
-        \mark \markup { \musicglyph #"scripts.coda" }
 
-        \time 2/4 e2
-        
         \bar "||"
-        \mark \markup { \musicglyph #"scripts.segno" }
- 
-        \cadenzaOn
-        \stopStaff
-        \repeat unfold 1
-        {
-          s1
-          \bar ""
-        }
-        \repeat unfold 3
-        {
-          s1
-          \bar ""
-        }
-        \startStaff
-        \cadenzaOff
-
-        \break
-
-        \mark \markup { \musicglyph #"scripts.coda" }
-
-        \time 4/4 d1 |
+        
+        d1) |
         
         \bar "||"
         
@@ -525,27 +596,23 @@ tenorSax =
         b1 |
         a2 e'-> |
 
-        d4-^ r4 r2 |
-        a4-^ r4 r2 |
-        e'4-^ r4 r2 |
-        g,2 a |
+        d4-^ r a-^ r |
+        e'4-^ r g, a |
         
         \repeat volta 3
         {
-          a1 |
-          a2 b |
+          a2 a4 b |
         }
         \alternative
         {
           {
-            g1 |
-            a2 a |
+            g2 a4 a |
           }
           {
-            b1 |
-            r1
+            b2 r
           }
         }
+        \bar "|."
       }
     }
   }
@@ -559,8 +626,7 @@ trombone = {
         g8-^ a-. g-. a16 g-. ~ g g-. a8-. g-. a-. |
         g8-^ a-. g-. a16 g-. ~ g g-. a8-. g-. e16-. f-. |
         g16-. g8-. g16 ~ g8 e16-. f-. g-. g8-. g16 ~ g8 c, |
-        
-        
+
         \repeat volta 2
         {
           c4-^ c8. c16 r4 r8 c |
@@ -580,6 +646,50 @@ trombone = {
           r1 |
           r8 g' e16 c8-. g16-> ~ g2 |
         }
+                
+        r2 r8 c c16 c8.-. |
+        r2 r8 b b16 b8.-. |
+        r1 |
+        r8 g' e16 c8-. g16-> ~ g2 |
+        
+        \bar "||"
+        
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        
+        \bar "||"
+        
+        d8-^ e-. d-. e16 d-. ~ d d-. e8-. d-. e-. |
+      }
+      
+      \key d \major {
+        \repeat volta 2
+        {
+          d8 a b d-. r a b d |
+          cis8 a b cis-. r a b cis-. |
+          e8 a, b e-. r a, b cis-. |
+        }
+        \alternative
+        {
+          { g'4 fis8 e8-> ~ e2 | }
+          { g4 fis8 e8-> ~ e2 ~ | }
+        }
+
+        \time 2/4 e2 |
+      }
+      \key c \major
+      {
+        c4-^ c8. c16 r4 r8 c |
+        b4-^ b8. b16 r4 r8 b |
+        a4-^ a8. a16 r4 r8 e'16-. f-. |
+        g16-. g8-. g16 ~ g8 e16-. f-. g-. g8-. g16 ~ g8 r |
+
+        r1 |
+        r1 |
+        r1 |
+        r8 g' e16 c8-. g16-> ~ g2 |
                 
         r2 r8 c c16 c8.-. |
         r2 r8 b b16 b8.-. |
@@ -607,31 +717,15 @@ trombone = {
         \alternative
         {
           { g'4 fis8 e8-> ~ e2 | }
-          { g4 fis8 e8-> ~ e2 ~ | }
+          { g4 fis8 e8-> ~ e2( | }
         }
 
-        \time 2/4 e2 |
+        \bar "||"
+        
+        d1)
 
-        \cadenzaOn
-        \stopStaff
-        \repeat unfold 1
-        {
-          s1
-          \bar ""
-        }
-        \repeat unfold 3
-        {
-          s1
-          \bar ""
-        }
-        \startStaff
-        \cadenzaOff
-
-        \break
-        \mark \markup { \musicglyph #"scripts.coda" }
-
-        \time 4/4 d1 |
-
+        \bar "||"
+        
         r8 d-. r d-. r d-. r d( |
         cis-.) cis-. r cis-. r cis-. r cis( |
         b-.) b-. r b-. r b-. r b( |
@@ -647,28 +741,23 @@ trombone = {
         g1 |
         a2 e'-> |
 
-        d4-^ r4 r2 |
-        a4-^ r4 r2 |
-        e'4-^ r4 r2 |
-        g,2 a |
+        d4-^ r a-^ r |
+        e'4-^ r g, a |
 
         \repeat volta 3
         {
-          d,1 |
-          cis2 d |
+          d,2 cis4 d |
         }
         \alternative
         {
           {
-            b1 |
-            d2 cis |
+            b2 d4 cis |
           }
           {
-            e1 |
-            r1
+            e2 r
           }
         }
-
+        \bar "|."
       }
     }
   }

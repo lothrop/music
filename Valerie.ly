@@ -70,6 +70,8 @@ trumpetBbI =
           r8 d r d d16 e8 f16 r4 |
           r8 d r d d16 e8 f16 r4 |
         }
+        
+        e1 | \bar "|."
       }
     }
   }
@@ -129,6 +131,8 @@ trumpetBbII =
           r8 bes r bes bes16 c8 d16 r4 |
           r8 bes r bes bes16 c8 d16 r4 |
         }
+        
+        c1 | \bar "|."
       }
     }
   }
@@ -188,6 +192,8 @@ tenorSax =
           r8 bes r bes bes16 c8 d16 r4 |
           r8 bes r bes bes16 c8 d16 r4 |
         }
+        
+        a1 | \bar "|."
       }
     }
   }
@@ -237,7 +243,7 @@ baritoneSax =
         \alternative
         {
           { r8 d r d d16 e8 f16 r4 | }
-          { r8 d r d d16 e8 f16 r8 e,8 | }
+          { r8 d r d d16 e8 f16 r8 \parenthesize e,8 | }
         }
 
         \repeat volta 2
@@ -247,6 +253,8 @@ baritoneSax =
           r8 g r g g16 a8 bes16 r4 |
           r8 g r g g16 a8 bes16 r4 |
         }
+        
+        a1 | \bar "|."
       }  
     }
   }
@@ -306,6 +314,8 @@ tromboneI =
           r8 d r d d16 e8 f16 r4 |
           r8 d r d d16 e8 f16 r4 |
         }
+        
+        e1 | \bar "|."
       }
     }
   }
@@ -365,6 +375,8 @@ tromboneII =
           r8 g r g g16 a8 bes16 r4 |
           r8 g r g g16 a8 bes16 r4 |
         }
+        
+        f1 | \bar "|."
       }
     }
   }
