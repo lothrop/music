@@ -11,7 +11,7 @@ TrpTwoB =  \relative c' {
       e1(}
       \alternative {
      { e2.)r4 | }
-     { e2) r4 
+     { e2 r4 
                   \override NoteHead.style = #'cross
                   eis4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style
@@ -45,7 +45,7 @@ TrpTwoB =  \relative c' {
       e1(}
       \alternative {
      { e2.)r4 | }
-     { e2) r4 
+     { e2 r4 
                   \override NoteHead.style = #'cross
                   eis4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style
@@ -73,14 +73,14 @@ TrpTwoB =  \relative c' {
     r2 dis8^. fis4^> fis8 ^>
           \bar "||"       
           R1*2
-      \bar "||"   
+  %    \bar "||"   
     \repeat volta 2 {
       gis1(^ \markup { \bold { "Brass Melody" } }
       gis2) \tuplet 3/2 {fis4 gis fis}
       e1(}
       \alternative {
      { e2.)r4 | }
-     { e2) r4 
+     { e2 r4 
                   \override NoteHead.style = #'cross
                   eis4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style

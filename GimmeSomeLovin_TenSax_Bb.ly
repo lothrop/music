@@ -11,7 +11,7 @@ TSaxB =  \relative c' {
       ais1(}
       \alternative {
      { ais2.)r4 | }
-     { ais2) r4 
+     { ais2 r4 
                   \override NoteHead.style = #'cross
                   eis'4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style
@@ -45,7 +45,7 @@ TSaxB =  \relative c' {
       ais1(}
       \alternative {
      { ais2.)r4 | }
-     { ais2) r4 
+     { ais2 r4 
                   \override NoteHead.style = #'cross
                   eis'4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style
@@ -73,14 +73,14 @@ TSaxB =  \relative c' {
     r2 dis'8^. fis4^> fis8 ^>
           \bar "||"       
           R1*2
-      \bar "||"   
+%      \bar "||"   
     \repeat volta 2 {
       cis1(^ \markup { \bold { "Brass Melody" } }
       cis2) \tuplet 3/2 {b4 cis b}
       ais1(}
       \alternative {
      { ais2.)r4 | }
-     { ais2) r4 
+     { ais2 r4 
                   \override NoteHead.style = #'cross
                   eis'4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style
