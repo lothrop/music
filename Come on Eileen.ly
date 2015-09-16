@@ -1,12 +1,5 @@
 \version "2.18.2"
 
-\header {
-  title = "Come on Eileen"
-  composer = "comp: Rowland, Paterson, Adams, Mann"
-  arranger = "arr: Kerry W. Lothrop"
-}
-
-
 global =
 {
   \time 4/4
@@ -39,9 +32,7 @@ trumpetBbI =
 
         \repeat volta 2
         {
-          r1 |
-          r1 |
-          r1 |
+          R1 * 3
           r8 g' e16 c8-. g16-> ~ g2 |
         }
         
@@ -52,10 +43,7 @@ trumpetBbI =
         
         \bar "||"
 
-        r1 |
-        r1 |
-        r1 |
-        r1 |
+        R1 * 4
         
         \bar "||"
 
@@ -189,9 +177,7 @@ trumpetBbII =
           { g'16-. g8-. g16 ~ g8 e16-. f-. b,-. b8-. b16 ~ b8 r | }
         }
         
-        r1 |
-        r1 |
-        r1 |
+        R1 * 3
         r8 g' e16 c8-. g16-> ~ g2 |
         
         r2 r8 f' e16 f8.-. |
@@ -201,10 +187,7 @@ trumpetBbII =
         
         \bar "||"
 
-        r1 |
-        r1 |
-        r1 |
-        r1 |
+        R1 * 4
         
         \bar "||"
         
@@ -229,6 +212,7 @@ trumpetBbII =
         
         \bar "||"
       }
+      \time 4/4
       \key c \major
       {
         e4-^ f8. e16 r4 r8 e |
@@ -236,9 +220,7 @@ trumpetBbII =
         c4-^ c8. c16 r4 r8 e16-. f-. |
         g16-. g8-. g16 ~ g8 e16-. f-. b,-. b8-. b16 ~ b8 r |
         
-        r1 |
-        r1 |
-        r1 |
+        R1 * 3
         r8 g' e16 c8-. g16-> ~ g2 |
         
         r2 r8 f' e16 f8.-. |
@@ -248,7 +230,7 @@ trumpetBbII =
         
         \repeat volta 2
         {
-          c4 d e f |
+          c4^"tacet 1st time"  d e f |
           g4 a b c |
           a1 |
           r1 |
@@ -273,7 +255,7 @@ trumpetBbII =
 
         \bar "||"
         
-        d1) |
+        d1)^"slow, reggae style, accel." |
         
         \bar "||"
         
@@ -287,7 +269,7 @@ trumpetBbII =
         b8-.) b-. r b-. r b-. r b( |
         a8-.) a-. r a-. r e'-. r e-. |
         
-        r1 |
+        r1^"molto accel." 
         d4 e fis g |
         d1 |
         a'2 e'-> |
@@ -341,9 +323,7 @@ altoSax =
 
         \repeat volta 2
         {
-          r1 |
-          r1 |
-          r1 |
+          R1 * 3
           r8 g e16 c8-. g16-> ~ g2 |
         }
         
@@ -354,10 +334,7 @@ altoSax =
         
         \bar "||"
         
-        r1 |
-        r1 |
-        r1 |
-        r1 |
+       R1 * 4
         
         \bar "||"
         
@@ -381,6 +358,7 @@ altoSax =
         
         \bar "||"
       }
+      \time 4/4
       \key c \major
       {
         g4-^ a8. g16 r4 r8 c, |
@@ -400,7 +378,7 @@ altoSax =
         
         \repeat volta 2
         {
-          c4 d e f |
+          c4^"tacet 1st time"  d e f |
           g4 a b c |
           a1 |
           r1 |
@@ -424,7 +402,7 @@ altoSax =
         }
         \bar "||"
 
-        d1) |
+        d1)^"slow, reggae style, accel." |
         
         \bar "||"
         
@@ -438,7 +416,7 @@ altoSax =
         b8-.) b-. r b-. r b-. r b( |
         a8-.) a-. r a-. r e'-. r e-. |
         
-        r1 |
+        r1^"molto accel." |
         fis4 g a b |
         b1 |
         a2 e'-> |
@@ -492,9 +470,7 @@ tenorSax =
 
         \repeat volta 2
         {
-          r1 |
-          r1 |
-          r1 |
+          R1 * 3
           r8 g' e16 c8-. g16-> ~ g2 |
         }
         
@@ -505,10 +481,7 @@ tenorSax =
         
         \bar "||"
         
-        r1 |
-        r1 |
-        r1 |
-        r1 |
+      R1 * 4
         
         \bar "||"
         
@@ -533,6 +506,7 @@ tenorSax =
         
         \bar "||"
       }
+      \time 4/4
       \key c \major
       {
         e,4-^ f8. e16 r4 r8 e |
@@ -552,7 +526,7 @@ tenorSax =
         
         \repeat volta 2
         {
-          c,4 d e f |
+          c,4^"tacet 1st time"  d e f |
           g4 a b c |
           a1 |
           r1 |
@@ -577,7 +551,7 @@ tenorSax =
 
         \bar "||"
         
-        d1) |
+        d1)^"slow, reggae style, accel." |
         
         \bar "||"
         
@@ -591,7 +565,7 @@ tenorSax =
         b8-.) b-. r b-. r b-. r b( |
         a8-.) a-. r a-. r e'-. r e-. |
         
-        d,4 e fis g |
+        d,4^"molto accel." e fis g |
         a4 b cis d |
         b1 |
         a2 e'-> |
@@ -641,9 +615,7 @@ trombone = {
 
         \repeat volta 2
         {
-          r1 |
-          r1 |
-          r1 |
+          R1 * 3
           r8 g' e16 c8-. g16-> ~ g2 |
         }
                 
@@ -654,10 +626,7 @@ trombone = {
         
         \bar "||"
         
-        r1 |
-        r1 |
-        r1 |
-        r1 |
+        R1 * 4
         
         \bar "||"
         
@@ -679,6 +648,7 @@ trombone = {
 
         \time 2/4 e2 |
       }
+      \time 4/4
       \key c \major
       {
         c4-^ c8. c16 r4 r8 c |
@@ -698,7 +668,7 @@ trombone = {
         
         \repeat volta 2
         {
-          c,4 d e f |
+          c,4^"tacet 1st time"  d e f |
           g4 a b c |
           a1 |
           r1 |
@@ -722,7 +692,7 @@ trombone = {
 
         \bar "||"
         
-        d1)
+        d1^"slow, reggae style, accel.")
 
         \bar "||"
         
@@ -736,7 +706,7 @@ trombone = {
         b-.) b-. r b-. r b-. r b( |
         a-.) a-. r a-. r e'-. r e-. |
 
-        d,4 e fis g |
+        d,4^"molto accel." e fis g |
         fis4 g a b |
         g1 |
         a2 e'-> |
@@ -788,7 +758,23 @@ trombonePart = \new Staff \with {
   midiInstrument = "trombone"
 } { \clef bass \trombone }
 
-\score {
+
+  \paper {
+top-margin = 5\mm
+bottom-margin = 5\mm
+before-title-space = 5\mm
+between-system-padding = 4\mm
+between-system-space = 15\mm
+ }
+
+\bookpart {
+\header {
+  title = "Come on Eileen"
+  composer = "comp: Rowland, Paterson, Adams, Mann"
+  arranger = "arr: Kerry W. Lothrop"
+}
+  
+  \score {
   <<
     \trumpetBbIPart
     \trumpetBbIIPart
@@ -797,10 +783,102 @@ trombonePart = \new Staff \with {
     \trombonePart
   >>
   \layout { }
-  \midi {
-    \context {
-      \Score
-      tempoWholesPerMinute = #(ly:make-moment 120 4)
-    }
+  %% Partitur mit std-Seitenlayout
   }
+}
+
+
+\bookpart {
+  %% Einzelsimmen auf eine Seite optimieren
+  #(define page-breaking ly:minimal-breaking)
+\paper {
+  system-count = #13
+}
+\header {
+      title = ""
+  composer = ""
+  arranger = ""
+  }
+\score {
+  <<
+    \trumpetBbIPart
+  >>
+  \layout { }  
+}
+}
+
+\bookpart {
+  %% Einzelsimmen auf eine Seite optimieren
+  #(define page-breaking ly:minimal-breaking)
+\paper {
+  system-count = #13
+}
+\header {
+      title = ""
+  composer = ""
+  arranger = ""
+  }
+\score {
+  <<
+    \trumpetBbIIPart
+  >>
+  \layout { }  
+}
+}
+
+\bookpart {
+  %% Einzelsimmen auf eine Seite optimieren
+  #(define page-breaking ly:minimal-breaking)
+\paper {
+  system-count = #13
+}
+\header {
+      title = ""
+  composer = ""
+  arranger = ""
+  }
+\score {
+  <<
+    \altoSaxPart
+  >>
+  \layout { }  
+}
+}
+
+\bookpart {
+  %% Einzelsimmen auf eine Seite optimieren
+  #(define page-breaking ly:minimal-breaking)
+\paper {
+  system-count = #13
+}
+\header {
+      title = ""
+  composer = ""
+  arranger = ""
+  }
+\score {
+  <<
+    \tenorSaxPart
+  >>
+  \layout { }  
+}
+}
+
+\bookpart {
+  %% Einzelsimmen auf eine Seite optimieren
+  #(define page-breaking ly:minimal-breaking)
+\paper {
+  system-count = #13
+}
+\header {
+      title = ""
+  composer = ""
+  arranger = ""
+  }
+\score {
+  <<
+    \trombonePart
+  >>
+  \layout { }  
+}
 }

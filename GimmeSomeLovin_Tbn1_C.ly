@@ -15,7 +15,7 @@ TbnOneC = \transpose c bes, {
       cis1(}
       \alternative {
      { cis2.)r4 | }
-     { cis2) r4 
+     { cis2 r4 
                   \override NoteHead.style = #'cross
                   eis,4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style
@@ -49,7 +49,7 @@ TbnOneC = \transpose c bes, {
       cis1(}
       \alternative {
      { cis2.)r4 | }
-     { cis2) r4 
+     { cis2 r4 
                   \override NoteHead.style = #'cross
                   eis,4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style
@@ -77,14 +77,14 @@ TbnOneC = \transpose c bes, {
     r2 dis8^. fis4^> fis8 ^>
           \bar "||"       
           R1*2
-      \bar "||"   
+%      \bar "||"   
     \repeat volta 2 {
       e'1(^ \markup { \bold { "Brass Melody" } }
       e2) \tuplet 3/2 {dis4 e dis}
       cis1(}
       \alternative {
      { cis2.)r4 | }
-     { cis2) r4 
+     { cis2 r4 
                   \override NoteHead.style = #'cross
                   eis,4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style

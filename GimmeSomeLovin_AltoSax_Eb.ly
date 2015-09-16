@@ -12,7 +12,7 @@ ASaxB = \transpose c g {
       e1(}
       \alternative {
      { e2.)r4 | }
-     { e2) r4 
+     { e2 r4 
                   \override NoteHead.style = #'cross
                   eis,4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style
@@ -46,7 +46,7 @@ ASaxB = \transpose c g {
       e1(}
       \alternative {
      { e2.)r4 | }
-     { e2) r4 
+     { e2 r4 
                   \override NoteHead.style = #'cross
                   eis,4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style
@@ -74,14 +74,14 @@ ASaxB = \transpose c g {
     r2 dis'8^. fis4^> fis8 ^>
           \bar "||"       
           R1*2
-      \bar "||"   
+%      \bar "||"   
     \repeat volta 2 {
       gis1(^ \markup { \bold { "Brass Melody" } }
       gis2) \tuplet 3/2 {fis4 gis fis}
       e1(}
       \alternative {
      { e2.)r4 | }
-     { e2) r4 
+     { e2 r4 
                   \override NoteHead.style = #'cross
                   eis,4^>- \markup { \italic { "Hey!" } }
                   \revert NoteHead.style

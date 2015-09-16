@@ -84,8 +84,11 @@ TbnTwo = \new Staff  \with {
 \transpose fis g \TbnTwoC
 }
 
-
-% Staves
+  
+%% sheet outputs...
+\bookpart {
+%% complete score
+\header {}
 \score{
 \new GrandStaff <<
      \TrpOne
@@ -95,11 +98,133 @@ TbnTwo = \new Staff  \with {
      \TbnOne
      \TbnTwo
 >>
-
-\midi { }
+\midi {}
 \layout {}    
 }
-  
+}
 
 
+%% instruments fitted to one page...
+\bookpart {
+%%  #(define page-breaking ly:minimal-breaking)
+\paper {
+  before-title-space = 5\mm
+  between-system-padding = 20\mm
+}
 
+\header {
+      subtitle = ""
+  composer = ""
+  arranger = ""
+  }
+  \score {
+  <<
+    \compressFullBarRests
+    \TrpOne
+  >>
+  \layout { }  
+}
+}
+
+
+\bookpart {
+\paper {
+  before-title-space = 5\mm
+  between-system-padding = 20\mm
+}
+
+\header {
+      subtitle = ""
+  composer = ""
+  arranger = ""
+  }
+  \score {
+  <<
+    \compressFullBarRests
+    \TrpTwo
+  >>
+  \layout { }  
+}
+}
+
+\bookpart {
+\paper {
+  before-title-space = 5\mm
+  between-system-padding = 20\mm
+}
+
+\header {
+      subtitle = ""
+  composer = ""
+  arranger = ""
+  }
+  \score {
+  <<
+    \compressFullBarRests
+    \AltoSax
+  >>
+  \layout { }  
+}
+}
+
+\bookpart {
+\paper {
+  before-title-space = 5\mm
+  between-system-padding = 20\mm
+}
+
+\header {
+      subtitle = ""
+  composer = ""
+  arranger = ""
+  }
+  \score {
+  <<
+    \compressFullBarRests
+    \TenorSax
+  >>
+  \layout { }  
+}
+}
+
+
+\bookpart {
+\paper {
+  before-title-space = 5\mm
+  between-system-padding = 20\mm
+}
+
+\header {
+      subtitle = ""
+  composer = ""
+  arranger = ""
+  }
+  \score {
+  <<
+    \compressFullBarRests
+    \TbnOne
+  >>
+  \layout { }  
+}
+}
+
+
+\bookpart {
+\paper {
+  before-title-space = 5\mm
+  between-system-padding = 20\mm
+}
+
+\header {
+      subtitle = ""
+  composer = ""
+  arranger = ""
+  }
+  \score {
+  <<
+    \compressFullBarRests
+    \TbnTwo
+  >>
+  \layout { }  
+}
+}
